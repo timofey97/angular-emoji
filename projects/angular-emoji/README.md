@@ -1,6 +1,6 @@
-# angular-emojis
+# angular-emoji
 
-_adds emoji support for angular projects_
+_adds emoji support for angular projects (angular 16 support)_
 
 ## Installation
 
@@ -9,7 +9,7 @@ To install `angular-emojis`, you need [node.js](http://nodejs.org/) and [npm](ht
 In your project directory, just run
 
 ```sh
-npm install --save angular-emojis
+npm i @timofey97/angular-emoji
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install --save angular-emojis
 add package to NgModule imports:
 
 ```javascript
-import { AngularEmojisModule } from "angular-emojis";
+import { AngularEmojisModule } from "@timofey97/angular-emoji";
 
 @NgModule({
   imports: [AngularEmojisModule],

@@ -1,13 +1,17 @@
 {
-  "name": "angular-emoji",
-  "version": "0.0.1",
+  "name": "@timofey97/angular-emoji",
+  "version": "0.0.2",
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^16.0.0",
     "@angular/core": "^16.0.0"
   },
   "author": {
-    "name": "Tim Timor",
-    "email": "tim.timor@gmail.com"
+    "name": "Timifey Timor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timofey97/angular-emoji"
   },
   "keywords": [
     "angular 16",
