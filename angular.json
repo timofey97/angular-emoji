@@ -3,5 +3,37 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "angular-emoji": {
+      "projectType": "library",
+      "root": "projects/angular-emoji",
+      "sourceRoot": "projects/angular-emoji/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/angular-emoji/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/angular-emoji/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/angular-emoji/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/angular-emoji/src/test.ts",
+            "tsConfig": "projects/angular-emoji/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-emoji/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "angular-emoji"
 }

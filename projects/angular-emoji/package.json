@@ -1,0 +1,31 @@
+{
+  "name": "angular-emoji",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
+  },
+  "author": {
+    "name": "Tim Timor",
+    "email": "tim.timor@gmail.com"
+  },
+  "keywords": [
+    "angular 16",
+    "emoji",
+    "emoji-picker",
+    "emoji-component",
+    "angular-emoji-picker",
+    "angular-emoji-component",
+    "emoji-library",
+    "angular-ui",
+    "user-interface",
+    "emoji-selector",
+    "angular-emoji-selector",
+    "emoji-support",
+    "angular-emoji-library",
+    "ui-components"
+  ],
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
